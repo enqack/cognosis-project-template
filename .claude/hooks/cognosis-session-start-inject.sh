@@ -8,6 +8,6 @@
 # exit, and Claude Code will not proceed without context (a context-less
 # session that looks normal is worse than one that visibly fails).
 #
-# Wire it up in .claude/settings.json (see hooks/settings.sample.json).
+# Already wired up in this template's .claude/settings.json.
 set -euo pipefail
 exec cognosis context inject --budget "${COGNOSIS_INJECT_BUDGET:-2000}"
